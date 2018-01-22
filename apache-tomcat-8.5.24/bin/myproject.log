@@ -1,0 +1,44 @@
+20:04:19,852 DEBUG ContextListener:47 - Log4j has been initialized
+20:24:22,521 DEBUG ContextListener:47 - Log4j has been initialized
+20:26:53,849 DEBUG ContextListener:47 - Log4j has been initialized
+20:38:26,782 DEBUG ContextListener:47 - Log4j has been initialized
+20:45:31,593 DEBUG ContextListener:47 - Log4j has been initialized
+21:48:57,924 DEBUG ContextListener:47 - Log4j has been initialized
+23:21:09,442 DEBUG ContextListener:47 - Log4j has been initialized
+23:23:05,412 DEBUG ContextListener:47 - Log4j has been initialized
+18:38:05,852 DEBUG ContextListener:55 - Log4j has been initialized
+18:39:33,758 DEBUG ContextListener:55 - Log4j has been initialized
+18:42:56,423 DEBUG ContextListener:55 - Log4j has been initialized
+18:49:57,985 DEBUG ContextListener:55 - Log4j has been initialized
+18:51:39,363 DEBUG ContextListener:55 - Log4j has been initialized
+19:13:28,846 DEBUG ContextListener:55 - Log4j has been initialized
+19:15:52,059 DEBUG ContextListener:55 - Log4j has been initialized
+19:20:41,677 DEBUG ContextListener:55 - Log4j has been initialized
+19:22:02,296 DEBUG ContextListener:55 - Log4j has been initialized
+19:42:58,701 DEBUG ContextListener:55 - Log4j has been initialized
+19:44:03,559 DEBUG UserServiceImpl:75 - User{id=1, lastName='admin', firstName='admin', email='admin@mail', password='null', blocked=false, role='ADMIN'}
+19:44:19,778 DEBUG UserServiceImpl:75 - User{id=1, lastName='admin', firstName='admin', email='admin@mail', password='null', blocked=false, role='ADMIN'}
+19:52:46,858 DEBUG UserServiceImpl:75 - User{id=1, lastName='admin', firstName='admin', email='admin@mail', password='null', blocked=false, role='ADMIN'}
+20:01:19,083 DEBUG UserServiceImpl:75 - User{id=1, lastName='admin', firstName='admin', email='admin@mail', password='null', blocked=false, role='ADMIN'}
+20:06:03,649 DEBUG ContexListener:110 - Log4j has been initialized
+20:06:03,705 DEBUG ContexListener:80 - com.epam.captcha.methods.CookieCaptchaHandler
+20:08:58,437 DEBUG ContextListener:55 - Log4j has been initialized
+16:42:17,070 DEBUG ContextListener:55 - Log4j has been initialized
+16:44:54,314 DEBUG UserServiceImpl:75 - User{id=1, lastName='admin', firstName='admin', email='admin@mail', password='null', blocked=false, role='ADMIN'}
+16:55:32,047 DEBUG UserServiceImpl:75 - User{id=1, lastName='admin', firstName='admin', email='admin@mail', password='null', blocked=false, role='ADMIN'}
+16:57:18,253 DEBUG ContextListener:55 - Log4j has been initialized
+16:59:04,877 DEBUG ContextListener:55 - Log4j has been initialized
+17:32:02,082 DEBUG ContextListener:55 - Log4j has been initialized
+17:35:06,806 DEBUG ContextListener:55 - Log4j has been initialized
+17:37:48,646 DEBUG ContextListener:55 - Log4j has been initialized
+17:38:24,095 DEBUG ContextListener:55 - Log4j has been initialized
+17:44:03,099 DEBUG ContextListener:55 - Log4j has been initialized
+17:45:48,103 DEBUG ContextListener:55 - Log4j has been initialized
+17:47:12,493 DEBUG ContextListener:55 - Log4j has been initialized
+17:49:07,905 DEBUG ContextListener:55 - Log4j has been initialized
+17:50:13,400 DEBUG ContextListener:55 - Log4j has been initialized
+17:52:03,849 DEBUG ContextListener:55 - Log4j has been initialized
+17:53:16,203 DEBUG ContextListener:55 - Log4j has been initialized
+17:55:34,010 DEBUG ContextListener:55 - Log4j has been initialized
+17:58:16,234 DEBUG ContextListener:55 - Log4j has been initialized
+18:01:17,118 DEBUG ContextListener:55 - Log4j has been initialized

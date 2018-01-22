@@ -1,0 +1,80 @@
+28-Dec-2017 16:21:21.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+28-Dec-2017 16:21:21.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+28-Dec-2017 16:21:21.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+28-Dec-2017 16:21:21.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Dec-2017 16:21:21.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Dec-2017 16:21:21.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Dec-2017 16:21:21.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_152
+28-Dec-2017 16:21:21.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+28-Dec-2017 16:21:21.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Dec-2017 16:21:21.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 16:21:21.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 16:21:21.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\EPAM\courses\apache-tomcat-8.5.24\conf\logging.properties
+28-Dec-2017 16:21:21.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Dec-2017 16:21:21.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Dec-2017 16:21:21.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Dec-2017 16:21:21.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Dec-2017 16:21:21.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 16:21:21.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 16:21:21.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\EPAM\courses\apache-tomcat-8.5.24\temp
+28-Dec-2017 16:21:21.695 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Java\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\uvaro\AppData\Local\Microsoft\WindowsApps;;.]
+28-Dec-2017 16:21:21.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Dec-2017 16:21:22.174 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Dec-2017 16:21:22.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Dec-2017 16:21:22.187 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Dec-2017 16:21:22.188 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1322 ms
+28-Dec-2017 16:21:22.376 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Dec-2017 16:21:22.376 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+28-Dec-2017 16:21:22.421 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\docs]
+28-Dec-2017 16:21:23.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\docs] has finished in [1,039] ms
+28-Dec-2017 16:21:23.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\examples]
+28-Dec-2017 16:21:24.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\examples] has finished in [1,486] ms
+28-Dec-2017 16:21:24.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\host-manager]
+28-Dec-2017 16:21:25.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\host-manager] has finished in [90] ms
+28-Dec-2017 16:21:25.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\manager]
+28-Dec-2017 16:21:25.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\manager] has finished in [59] ms
+28-Dec-2017 16:21:25.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\ROOT]
+28-Dec-2017 16:21:25.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\ROOT] has finished in [26] ms
+28-Dec-2017 16:21:25.129 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Dec-2017 16:21:25.141 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Dec-2017 16:21:25.146 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2957 ms
+28-Dec-2017 18:47:35.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+28-Dec-2017 18:47:35.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+28-Dec-2017 18:47:35.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+28-Dec-2017 18:47:35.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Dec-2017 18:47:35.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Dec-2017 18:47:35.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Dec-2017 18:47:35.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_152
+28-Dec-2017 18:47:35.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_152-b16
+28-Dec-2017 18:47:35.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Dec-2017 18:47:35.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 18:47:35.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 18:47:35.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\EPAM\courses\apache-tomcat-8.5.24\conf\logging.properties
+28-Dec-2017 18:47:35.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Dec-2017 18:47:35.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Dec-2017 18:47:35.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Dec-2017 18:47:35.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Dec-2017 18:47:35.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 18:47:35.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\EPAM\courses\apache-tomcat-8.5.24
+28-Dec-2017 18:47:35.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\EPAM\courses\apache-tomcat-8.5.24\temp
+28-Dec-2017 18:47:35.619 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Java\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\uvaro\AppData\Local\Microsoft\WindowsApps;;.]
+28-Dec-2017 18:47:36.274 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Dec-2017 18:47:36.435 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Dec-2017 18:47:36.445 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Dec-2017 18:47:36.448 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Dec-2017 18:47:36.448 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1387 ms
+28-Dec-2017 18:47:36.486 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Dec-2017 18:47:36.486 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+28-Dec-2017 18:47:36.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\docs]
+28-Dec-2017 18:47:36.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\docs] has finished in [338] ms
+28-Dec-2017 18:47:36.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\examples]
+28-Dec-2017 18:47:37.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\examples] has finished in [881] ms
+28-Dec-2017 18:47:37.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\host-manager]
+28-Dec-2017 18:47:37.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\host-manager] has finished in [28] ms
+28-Dec-2017 18:47:37.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\manager]
+28-Dec-2017 18:47:37.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\manager] has finished in [47] ms
+28-Dec-2017 18:47:37.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\ROOT]
+28-Dec-2017 18:47:37.831 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\EPAM\courses\apache-tomcat-8.5.24\webapps\ROOT] has finished in [35] ms
+28-Dec-2017 18:47:37.835 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Dec-2017 18:47:37.844 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Dec-2017 18:47:37.847 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1398 ms

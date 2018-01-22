@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Input XML document. This XML is valid against Test.xsd XML schema-->
+<Diamonds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="input.xsd">>
+    <Gem>
+        <Name>Akbar Shah</Name>
+        <Preciousness>Precious</Preciousness>
+        <Origin>India</Origin>
+        <Colour>Colorless</Colour>
+        <Transparency>10</Transparency>
+        <Edges>5</Edges>>
+        <Value>71.7</Value>>
+    </Gem>
+
+    <Gem>
+        <Name>Allnatt Diamond</Name>
+        <Preciousness>Precious</Preciousness>
+        <Origin>South Africa</Origin>
+        <Colour>Yellow</Colour>
+        <Transparency>50</Transparency>
+        <Edges>4</Edges>>
+        <Value>101.29</Value>>
+    </Gem>
+
+    <Gem>
+        <Name>Hope</Name>
+        <Preciousness>Semiprecious</Preciousness>
+        <Origin>USA</Origin>
+        <Colour>Yellow</Colour>
+        <Transparency>10</Transparency>
+        <Edges>5</Edges>>
+        <Value>5</Value>>
+    </Gem>
+</Diamonds>

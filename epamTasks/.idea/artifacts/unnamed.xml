@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="unnamed">
-    <output-path>$PROJECT_DIR$/../../../EPAM/courses/epamTasks/out/artifacts/unnamed</output-path>
-    <root id="root">
-      <element id="module-output" name="epamTasks" />
-    </root>
-  </artifact>
-</component>

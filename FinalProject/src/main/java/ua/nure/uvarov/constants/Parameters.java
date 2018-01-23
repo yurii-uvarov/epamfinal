@@ -23,6 +23,7 @@ public class Parameters {
     public static final String PUBLICATION_DATE = "publicationDate";
     public static final String GROUP = "group";
     public static final String GENRE = "genre";
+    public static final String UNAVAILABLE = "unavailable";
 
     public static final String BOOK_ID = "bookid";
     public static final String USER_ID = "userid";
@@ -31,11 +32,6 @@ public class Parameters {
     public static final String ACTUAL_DATE = "date_expected";
     public static final String PLACE = "place";
     public static final String STATUS = "status";
-
-
-
-
-
 
     public static final String S_ERRORS = "s_errors";
     public static final String ERRORS = "errors";

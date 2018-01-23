@@ -38,7 +38,6 @@ public class ValidateUtil {
 
     public Map<String, String> validateBean(UsersBean usersBean) {
         Map<String, String> errors = new HashMap<>();
-        System.out.println(usersBean.getPassword() + " " +usersBean.getPasswordRepeat());
         if (!validateByRegex(usersBean.getEmail(), Regexes.EMAIL_PATTERN)) {
             errors.put(Parameters.EMAIL, Messages.INVALID_EMAIL);
         }

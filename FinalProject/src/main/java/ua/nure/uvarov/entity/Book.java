@@ -11,6 +11,15 @@ public class Book {
     private Date publicationDate;
     private int genreId;
     private int groupId;
+    private boolean unavaliable;
+
+    public boolean isUnavaliable() {
+        return unavaliable;
+    }
+
+    public void setUnavaliable(boolean unavaliable) {
+        this.unavaliable = unavaliable;
+    }
 
     public int getId() {
         return id;

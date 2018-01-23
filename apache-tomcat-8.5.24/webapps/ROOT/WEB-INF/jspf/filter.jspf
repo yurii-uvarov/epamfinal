@@ -1,0 +1,53 @@
+
+<div class="panel panel-default search1">
+
+
+	<h4 class="panel-title">Name</h4>
+	<p>
+		<input class="form-control inputSearch" type="text" name="name" value="${filterParam.name}"
+			placeholder="Name">
+	</p>
+
+	<h4 class="panel-title">Manufacturer</h4>
+	<p>
+		<c:forEach items="${manufacturers}" var="manuf">
+			<p>
+				<input class="inputSearch" type="checkbox" name="manufacturer"
+					value="${manuf}"
+					<c:forEach items="${filterParam.manufacturers}" var="manufInFilter">
+					<c:if test="${manufInFilter == manuf}">checked</c:if>
+					</c:forEach>
+					>${manuf}</p>
+		</c:forEach>
+
+	</p>
+
+	<h4 class="panel-title">Category</h4>
+	<p>
+		<c:forEach items="${categories}" var="categ">
+			<p>
+				<input class="inputSearch" type="checkbox" name="category"
+					value="${categ}" <c:forEach items="${filterParam.categories}" var="categInFilter">
+					<c:if test="${categInFilter == categ}">checked</c:if>
+					</c:forEach>
+					>${categ}</p>
+		</c:forEach>
+	</p>
+
+	<h4 class="panel-title">Price</h4>
+	<p>
+		<input class="form-control inputSearch" type="text" name="minPrice" value="${filterParam.minPrice}"
+			placeholder="$">
+	</p>
+	<p class="text-center">to</p>
+
+	<p>
+		<input class="form-control inputSearch" type="text" name="maxPrice" value="${filterParam.maxPrice}"
+			placeholder="$">&nbsp;
+	</p>
+	<input type="hidden" name="search" value="true">
+	 <input
+		class="btn btn-warning btn-sm form-control " type="submit"
+		value="Search">&nbsp;
+
+</div>

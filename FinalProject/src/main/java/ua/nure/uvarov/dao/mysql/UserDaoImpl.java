@@ -40,12 +40,12 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public User getUserByEmail(String login) {
+    public User getUserByEmail(String email) {
         User user;
         Connection connection = ThreadLockHandler.getConnection();
         try (PreparedStatement st = connection.prepareStatement(MySQL.USER_BY_EMAIL)) {
             UserRowMapper userRowMapper = new UserRowMapper();
-            st.setString(1, login);
+            st.setString(1, email);
             st.executeQuery();
             ResultSet resultSet = st.getResultSet();
             resultSet.next();
@@ -97,7 +97,6 @@ public class UserDaoImpl implements UserDao {
             resultSet.next();
             return resultSet.getInt(Parameters.BLOCKED) == 1;
         } catch (SQLException e) {
-            System.err.println(e.getSQLState());
             throw new DataBaseException(e);
         }
     }

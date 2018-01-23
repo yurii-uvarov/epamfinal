@@ -20,6 +20,7 @@ public class BookRowMapper implements EntityRowMapper<Book> {
         book.setPublicationDate(new java.util.Date(resultSet.getDate(Parameters.PUBLICATION_DATE).getTime()));
         book.setEdition(resultSet.getString(Parameters.EDITION));
         book.setGenreId(resultSet.getInt(Parameters.GENRE));
+        book.setUnavaliable(resultSet.getInt(Parameters.UNAVAILABLE)==1);
         return book;
     }
 
@@ -31,6 +32,7 @@ public class BookRowMapper implements EntityRowMapper<Book> {
         preparedStatement.setDate(4,new java.sql.Date(book.getPublicationDate().getTime()));
         preparedStatement.setInt(5,book.getGenreId());
         preparedStatement.setInt(6, book.getGroupId());
+        preparedStatement.setInt(7,book.isUnavaliable()?1:0);
 
     }
 }

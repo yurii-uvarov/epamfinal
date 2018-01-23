@@ -1,0 +1,33 @@
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-3">
+			<p>
+				Page size: <input class="filterSize" type="text" name="amount"
+					placeholder="Size">
+			</p>
+		</div>
+		<div class="col-sm-2">
+			<p>
+				<input type="radio" name="asc" value="false"> Asc <input
+					type="radio" name="asc" value="true"> Desc
+			</p>
+			&nbsp;
+		</div>
+		<div class="col-sm-5">
+			<p>
+				Sort by: <select class="filter" size="1" name="orderBy">
+					<option value="name" selected>Name</option>
+					<option value="manufacturer"
+						<c:if test="${filterParam.orderBy == 'manufacturer'}">selected</c:if>>Manufacturer</option>
+					<option value="category"
+						<c:if test="${filterParam.orderBy == 'category'}">selected</c:if>>Category</option>
+					<option value="price"
+						<c:if test="${filterParam.orderBy == 'price'}">selected</c:if>>Price</option>
+				</select>
+			</p>
+			&nbsp;
+		</div>
+	</div>
+</div>

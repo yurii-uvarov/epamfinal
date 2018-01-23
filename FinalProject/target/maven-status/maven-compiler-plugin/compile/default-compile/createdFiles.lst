@@ -1,3 +1,6 @@
+ua\nure\uvarov\entity\UserRole.class
+ua\nure\uvarov\web\controller\MainController.class
+ua\nure\uvarov\entity\Raiting.class
 ua\nure\uvarov\bean\rowMapper\BeanRowMapper.class
 ua\nure\uvarov\transaction\ThreadLockHandler.class
 ua\nure\uvarov\dao\mapper\EntityRowMapper.class
@@ -6,10 +9,8 @@ ua\nure\uvarov\dao\mysql\BookDaoImpl.class
 ua\nure\uvarov\bean\Bean.class
 ua\nure\uvarov\dao\mysql\UserDaoImpl.class
 ua\nure\uvarov\constants\Regexes.class
-ua\nure\uvarov\dao\GenreDao.class
 ua\nure\uvarov\entity\Genre.class
 ua\nure\uvarov\dao\BookDao.class
-ua\nure\uvarov\dao\BookGroupsDao.class
 ua\nure\uvarov\entity\Book.class
 ua\nure\uvarov\services\UserServiceImpl.class
 ua\nure\uvarov\entity\BookGroup.class
@@ -21,6 +22,8 @@ ua\nure\uvarov\constants\Messages.class
 ua\nure\uvarov\constants\Parameters.class
 ua\nure\uvarov\dao\GenericDao.class
 ua\nure\uvarov\dao\UserDao.class
+ua\nure\uvarov\entity\Penalty.class
+ua\nure\uvarov\entity\PenaltyOrders.class
 ua\nure\uvarov\web\controller\LoginController.class
 ua\nure\uvarov\entity\User.class
 ua\nure\uvarov\services\UserService.class
@@ -28,10 +31,15 @@ ua\nure\uvarov\bean\rowMapper\RegisterUserBeanRowMapper.class
 ua\nure\uvarov\bean\RoleBean.class
 ua\nure\uvarov\web\listener\ContextListener.class
 ua\nure\uvarov\entity\Order.class
+ua\nure\uvarov\entity\OrderStatus.class
+ua\nure\uvarov\util\ValidateUtil.class
 ua\nure\uvarov\constants\MySQL.class
 ua\nure\uvarov\dao\mapper\UserRowMapper.class
+ua\nure\uvarov\services\RegisterService.class
 ua\nure\uvarov\dao\OrderDao.class
 ua\nure\uvarov\exceptions\DataBaseException.class
+ua\nure\uvarov\web\controller\RegisterController.class
+ua\nure\uvarov\dao\mapper\OrderRowMapper.class
 ua\nure\uvarov\transaction\DBManager.class
 ua\nure\uvarov\transaction\Transaction.class
 ua\nure\uvarov\exceptions\AppInitializationException.class
